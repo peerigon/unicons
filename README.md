@@ -2,6 +2,9 @@
 
 **Cross-platform unicode icon toolkit**
 
+![https://img.shields.io/npm/v/npm.svg](https://img.shields.io/npm/v/unicons.svg)
+![https://img.shields.io/npm/dm/localeval.svg](https://img.shields.io/npm/dm/unicons.svg)
+
 ```javascript
 var unicons = require("unicons");
 
