@@ -16,7 +16,7 @@
   "license": "Unlicense",
   "devDependencies": {
     "eslint": "^1.6.0",
-    "eslint-config-peerigon": "^0.1.1",
+    "eslint-config-peerigon": "^0.1.1"
   },
   "repository": {
       "type": "git",
