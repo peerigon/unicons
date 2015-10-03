@@ -5,13 +5,13 @@
 ![](https://img.shields.io/npm/v/unicons.svg)
 ![](https://img.shields.io/npm/dm/unicons.svg)
 
+Provides fast access to the most commonly used unicode icons.
+
 ```javascript
 var unicons = require("unicons");
 
-console.log(unicons.check);
-// ✓
-console.log(unicons.cross);
-// ✖
+console.log(unicons.check); // ✓
+console.log(unicons.cross); // ✖
 ```
 
 ## Installation
@@ -20,14 +20,26 @@ console.log(unicons.cross);
 npm i unicons --save
 ```
 
+## CLI mode
+
+**unicons** has especially been designed for use in CLIs. If you want to support different OS, just call `.cli(iconName)` and you'll get the most suitable character for the given environment:
+
+```javascript
+unicons.cli("circle"); // ● on Unix
+                       // o on Windows
+```
+
 ## Icon table
 
-Property | Default | Windows
----------|---------|--------
+Property | Default | Windows Console Fallback
+---------|---------|-------------------------
 `check` | ✓ | √
 `cross` | ✖ | ×
+`arrowLeft` | ← | ←
+`arrowUp` | ↑ | ↑
 `arrowRight` | → | →
-`blackCircle` | ● | ●
+`arrowDown` | ↓ | ↓
+`circle` | ● | o
 
 The icon table is still very small :(<br>
 If you can't find your icon in the [icon table](https://github.com/peerigon/unicons#icon-table), don't hesitate to create a pull request.
