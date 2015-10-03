@@ -1,0 +1,25 @@
+{
+  "name": "unicons",
+  "version": "0.0.1",
+  "description": "Cross-platform unicode icon toolkit",
+  "main": "lib/index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "keywords": [
+    "icons",
+    "unicode",
+    "cli",
+    "toolkit"
+  ],
+  "author": "peerigon",
+  "license": "Unlicense",
+  "devDependencies": {
+    "eslint": "^1.6.0",
+    "eslint-config-peerigon": "^0.1.1",
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/peerigon/unicons.git"
+    }
+}
