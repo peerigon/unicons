@@ -2,8 +2,8 @@
 
 **Cross-platform unicode icon toolkit**
 
-![](https://img.shields.io/npm/v/unicons.svg)
-![](https://img.shields.io/npm/dm/unicons.svg)
+[![](https://img.shields.io/npm/v/unicons.svg)](https://www.npmjs.com/package/unicons)
+[![](https://img.shields.io/npm/dm/unicons.svg)](https://www.npmjs.com/package/unicons)
 
 Provides fast access to the most commonly used unicode icons.
 
