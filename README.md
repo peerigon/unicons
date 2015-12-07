@@ -33,13 +33,19 @@ unicons.cli("circle"); // ● on Unix
 
 Property | Default | Windows Console Fallback
 ---------|---------|-------------------------
-`check` | ✓ | √
-`cross` | ✖ | ×
 `arrowLeft` | ← | ←
 `arrowUp` | ↑ | ↑
 `arrowRight` | → | →
 `arrowDown` | ↓ | ↓
+`check` | ✓ | √
 `circle` | ● | o
+`cross` | ✖ | ×
+`copyright` | © | (c)
+`gear` | ⚙ | _
+`option` | ⌥ | _
+`super` | ⌘ | _
+`shift` | ⇧ | _
+
 
 The icon table is still very small :(<br>
 If you can't find your icon in the [icon table](https://github.com/peerigon/unicons#icon-table), don't hesitate to create a pull request.
