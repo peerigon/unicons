@@ -2,6 +2,17 @@
   "name": "unicons",
   "version": "0.0.1",
   "description": "Cross-platform unicode icon toolkit",
+  "author": "peerigon",
+  "contributors": [
+    {
+      "name": "peerigon",
+      "email": "hello@peerigon.com"
+    },
+    {
+      "name": "bmcminn",
+      "email": "labs@gbox.name"
+    }
+  ],
   "main": "lib/index.js",
   "scripts": {
     "eslint": "eslint ."
@@ -12,7 +23,6 @@
     "cli",
     "toolkit"
   ],
-  "author": "peerigon",
   "license": "Unlicense",
   "devDependencies": {
     "eslint": "^1.6.0",

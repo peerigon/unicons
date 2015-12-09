@@ -32,17 +32,29 @@ unicons.cli("circle"); // ● on Unix
 ## Icon table
 
 Property | Default | Windows Console Fallback
----------|---------|-------------------------
-`check` | ✓ | √
-`cross` | ✖ | ×
+---------|---------|-------------------------|
 `arrowLeft` | ← | ←
 `arrowUp` | ↑ | ↑
 `arrowRight` | → | →
 `arrowDown` | ↓ | ↓
+`check` | ✓ | √
 `circle` | ● | o
+`cross` | ✖ | ×
+`copyright` | © | (c)
+`gear` | ⚙ | ⚙
+`option` | ⌥ | <
+`super` | ⌘ | _
+`shift` | ⇧ | ↑
+
 
 The icon table is still very small :(<br>
 If you can't find your icon in the [icon table](https://github.com/peerigon/unicons#icon-table), don't hesitate to create a pull request.
+
+
+## Contributing
+
+You can refer to the Unicode Character table site for integrating more characters: http://unicode-table.com/en
+
 
 ## License
 
