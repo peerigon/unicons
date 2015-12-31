@@ -45,7 +45,7 @@ Property | Default | Windows Console Fallback
 `option` | ⌥ | <
 `super` | ⌘ | ∞
 `shift` | ⇧ | ↑
-
+`warning` | ⚠ | !
 
 The icon table is still very small :(<br>
 If you can't find your icon in the [icon table](https://github.com/peerigon/unicons#icon-table), don't hesitate to create a pull request.
