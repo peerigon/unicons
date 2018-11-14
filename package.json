@@ -15,6 +15,7 @@
   ],
   "main": "lib/index.js",
   "jest": {
+    "setupTestFrameworkScriptFile": "jest-chain",
     "testRegex": "test/.*.js"
   },
   "scripts": {
@@ -38,6 +39,7 @@
     "url": "https://github.com/peerigon/unicons.git"
   },
   "dependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "jest-chain": "^1.0.5"
   }
 }

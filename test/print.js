@@ -11,7 +11,7 @@ Object.keys(unicons)
         console.log(icon, iconFromCode);
         if (icon === 'apple') {
             it(`apple icon`, () => {
-                expect(iconFromCode).toBe(unicons.apple)
+                expect(iconFromCode).toBe(unicons.apple).toBe('')
             });
         }
     });
