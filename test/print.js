@@ -7,5 +7,11 @@ Object.keys(unicons)
         return typeof unicons[key] === "string";
     })
     .forEach(function (icon) {
-        console.log(icon, unicons.cli(icon));
+        const iconFromCode = unicons.cli(icon)
+        console.log(icon, iconFromCode);
+        if (icon === 'apple') {
+            it(`apple icon`, () => {
+                expect(iconFromCode).toBe(unicons.apple)
+            });
+        }
     });

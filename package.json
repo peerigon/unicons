@@ -14,8 +14,12 @@
     }
   ],
   "main": "lib/index.js",
+  "jest": {
+    "testRegex": "test/.*.js"
+  },
   "scripts": {
-    "test": "node test/print.js",
+    "test": "node --inspect=127.0.0.1:7000 ./node_modules/jest/bin/jest.js --runInBand  --watch --env node",
+    "test-window": "npm test window",
     "posttest": "eslint ."
   },
   "keywords": [
@@ -32,5 +36,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/peerigon/unicons.git"
+  },
+  "dependencies": {
+    "jest": "^23.6.0"
   }
 }
