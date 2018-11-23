@@ -17,4 +17,5 @@ Object.keys(unicons)
     });
 it(`img`, () => {
     expect(unicons.img(100)).toBe('https://abs.twimg.com/emoji/v2/72x72/1f4af.png')
+    expect(unicons.img('stop')).toBe('https://abs.twimg.com/emoji/v2/72x72/1f64c.png')
 });
