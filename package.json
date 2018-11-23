@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "jest": "^23.6.0",
-    "jest-chain": "^1.0.5"
+    "jest-chain": "^1.0.5",
+    "unicons": "https://github.com/qcgm1978/unicons.git"
   }
 }
