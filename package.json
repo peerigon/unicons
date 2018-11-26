@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "node --inspect=127.0.0.1:7001 ./node_modules/jest/bin/jest.js --runInBand  --watch --env node",
-    "test-window": "npm test window",
+    "window": "npm test window",
     "posttest": "eslint ."
   },
   "keywords": [
