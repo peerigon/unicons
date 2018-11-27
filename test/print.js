@@ -15,10 +15,11 @@ Object.keys(unicons)
             });
         }
     });
-it(`stop`, () => {
+it(`The possible code point values range from U+0000 to U+10FFFF.`, () => {
     expect(unicons.cli('ZDings')).toBe('✏')
     expect(unicons.cli('dog')).toBe('🐶')
     expect(unicons.cli('laughing')).toBe('🤣')
+    expect(unicons.cli('rocket')).toBe('🚀')
 })
 it(`img`, () => {
     expect(unicons.img(100)).toBe('https://abs.twimg.com/emoji/v2/72x72/1f4af.png')
