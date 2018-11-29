@@ -27,4 +27,6 @@ it(`In ECMAScript 6 this will be easy, since it introduces a new type of escape 
 it(`img`, () => {
     expect(unicons.img(100)).toBe('https://abs.twimg.com/emoji/v2/72x72/1f4af.png')
     expect(unicons.img('stop')).toBe('https://abs.twimg.com/emoji/v2/72x72/1f64c.png')
+    expect(unicons.img('mars')).toBe('https://abs.twimg.com/hashflags/MARS_NatGeo_2018/MARS_NatGeo_2018.png')
+    expect(unicons.cli('mars')).toBe('https://abs.twimg.com/hashflags/MARS_NatGeo_2018/MARS_NatGeo_2018.png')
 });
