@@ -19,6 +19,7 @@ it(`The possible code point values range from U+0000 to U+10FFFF.`, () => {
     expect(unicons.cli('ZDings')).toBe('✏')
     expect(unicons.cli('dog')).toBe('🐶')
     expect(unicons.cli('laughing')).toBe('🤣')
+    expect(unicons.cli('pi')).toBe('\u03C0').toBe('π')
 })
 it(`In ECMAScript 6 this will be easy, since it introduces a new type of escape sequence: Unicode code point escapes.`, () => {
     expect(unicons.cli('rocket')).toBe("\uD83D\uDE80").toBe('🚀')
