@@ -23,7 +23,7 @@ it(`The possible code point values range from U+0000 to U+10FFFF.`, () => {
     expect(unicons.cli('sun')).toBe('\u{1F31E}').toBe('🌞')
     expect(unicons.cli('jazz')).toBe('\u{1F3B7}').toBe('🎷')
 })
-it(`In ECMAScript 6 this will be easy, since it introduces a new type of escape sequence: Unicode code point escapes.`, () => {
+it(`In ECMAScript 6 this will be easy, since it introduces a new type of escapea sequence: Unicode code point escapes.`, () => {
     expect(unicons.cli('rocket')).toBe("\uD83D\uDE80").toBe('🚀')
     expect(unicons.cli('magnify')).toBe("\u{1F50D}").toBe('🔍')
     expect(unicons.cli('arrowRightBtn'))./* toBe("\u{27A1}"). */toBe('➡️')
