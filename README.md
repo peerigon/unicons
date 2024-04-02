@@ -63,7 +63,7 @@ If you're feeling lucky, go ahead ;). Copying characters is error prone and migh
 
 ## Contributing
 
-You can refer to the Unicode Character table site for integrating more characters: [http://unicode-table.com/en](http://unicode-table.com/en) and [http://jrgraphix.net/r/Unicode/](http://jrgraphix.net/r/Unicode/).
+You can refer to the Unicode Character table site for integrating more characters: [https://symbl.cc/en](https://symbl.cc/en) and [http://jrgraphix.net/r/Unicode/](http://jrgraphix.net/r/Unicode/).
 
 In order to find Windows characters, please refer to the [Codepage 437 Reference](https://en.wikipedia.org/wiki/Code_page_437). Most of these will work, however, there is no guarantee :(
 
